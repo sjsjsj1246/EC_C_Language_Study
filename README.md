@@ -1,24 +1,24 @@
-# EC C¾ð¾î ½ºÅÍµð
-#### 2019³âµµ for EC_29th
+# EC Cì–¸ì–´ ìŠ¤í„°ë””
+#### 2019ë…„ë„ for EC_29th
 
-ÀÌ ¹®¼­´Â 2019³âµµ EC ½ÅÀÔ»ý C¾ð¾î ½ºÅÍµð¸¦ °­ÀÇ ³»¿ëÀ» ¹®¼­È­ ÇÏ±â À§ÇØ ¸¸µé¾î Á³½À´Ï´Ù.  
-°­ÀÇÀÇ Âü°í¿ëÀ¸·Î ¸¸µé¾î Á³À¸¸ç C¾ð¾îÀÇ ¹®¹ý¿¡ ÀÖ¾î ÀÚ¼¼ÇÑ ºÎºÐÀº Ã¥ÀÌ³ª ÀÎÅÍ³ÝÀ» Âü°íÇÏ½Ç °ÍÀ» ±ÇÀåÇÕ´Ï´Ù.
-
----
-### °­ÀÇ °èÈ¹
-
-[1ÁÖÂ÷](https://github.com/sjsjsj1246/EC_C_Language_Study/tree/master/Week_1) :   
-2ÁÖÂ÷ :  
-3ÁÖÂ÷ :  
-4ÁÖÂ÷ :  
-5ÁÖÂ÷ :  
-6ÁÖÂ÷ :  
-7ÁÖÂ÷ :  
+ì´ ë¬¸ì„œëŠ” 2019ë…„ë„ EC ì‹ ìž…ìƒ Cì–¸ì–´ ìŠ¤í„°ë””ë¥¼ ê°•ì˜ ë‚´ìš©ì„ ë¬¸ì„œí™” í•˜ê¸° ìœ„í•´ ë§Œë“¤ì–´ ì¡ŒìŠµë‹ˆë‹¤.  
+ê°•ì˜ì˜ ì°¸ê³ ìš©ìœ¼ë¡œ ë§Œë“¤ì–´ ì¡Œìœ¼ë©° Cì–¸ì–´ì˜ ë¬¸ë²•ì— ìžˆì–´ ìžì„¸í•œ ë¶€ë¶„ì€ ì±…ì´ë‚˜ ì¸í„°ë„·ì„ ì°¸ê³ í•˜ì‹¤ ê²ƒì„ ê¶Œìž¥í•©ë‹ˆë‹¤.
 
 ---
-### Æò°¡¿ë »çÀÌÆ®
+### ê°•ì˜ ê³„íš
 
-[¹éÁØ ¿Â¶óÀÎ ÀúÁö](https://www.acmicpc.net/)  
-[±×·ì ¸µÅ©]
+[1ì£¼ì°¨](https://github.com/sjsjsj1246/EC_C_Language_Study/tree/master/Week_1) :   
+2ì£¼ì°¨ :  
+3ì£¼ì°¨ :  
+4ì£¼ì°¨ :  
+5ì£¼ì°¨ :  
+6ì£¼ì°¨ :  
+7ì£¼ì°¨ :  
+
+---
+### í‰ê°€ìš© ì‚¬ì´íŠ¸
+
+[ë°±ì¤€ ì˜¨ë¼ì¸ ì €ì§€](https://www.acmicpc.net/)  
+[ê·¸ë£¹ ë§í¬]
 
 ---
