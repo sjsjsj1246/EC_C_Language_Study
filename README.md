@@ -7,18 +7,18 @@
 ---
 ### 강의 계획
 
-[1주차]((https://github.com/sjsjsj1246/EC_C_Language_Study/Week_1)) : 
-2주차 : 
-3주차 : 
-4주차 : 
-5주차 : 
-6주차 : 
-7주차 : 
+[1주차](https://github.com/sjsjsj1246/EC_C_Language_Study/tree/master/Week_1) :   
+2주차 :  
+3주차 :  
+4주차 :  
+5주차 :  
+6주차 :  
+7주차 :  
 
 ---
 ### 평가용 사이트
 
-[백준 온라인 저지](https://www.acmicpc.net/)
+[백준 온라인 저지](https://www.acmicpc.net/)  
 [그룹 링크]
 
 ---
