@@ -13,7 +13,7 @@
 
 ### do~while 입력값 검사
 
-```
+```c
 int main()
 {
 	int n;
@@ -27,7 +27,7 @@ int main()
 }
 ```
 하지만 이렇게쓰는게 더 좋습니다.  
-```{.c}
+```c
 #include <stdio.h>
 
 int main()
@@ -49,7 +49,7 @@ int main()
 
 #### 수 뒤집기
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -69,7 +69,7 @@ int main()
 ```
 
 #### 십진수 이진수로 바꾸기
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -100,13 +100,13 @@ int main()
 
 ### for문 활용
 
-```
+```c
 	for (char c = 'a'; c <= 'z'; c++);
     for (int i = 1; i < n; i *= 2)
 ```
 
 #### 소수 판별 알고리즘
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -128,7 +128,7 @@ int main()
 ```
 
 #### 최대공약수 알고리즘
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -154,7 +154,7 @@ int main()
 반복문 내부에 반복문을 사용하는 구조입니다.   
 
 ### 중첩 반복문의 구조  
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -169,7 +169,7 @@ int main()
 }
 ```
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -187,7 +187,7 @@ int main()
 사실 그렇게 새로울 것은 없고 예제를 보며 여러번 사용하면서 구조를 익히는 것이 가장 좋습니다.  
 
 ### 정렬 알고리즘(버블 소트)  
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -212,7 +212,7 @@ int main()
 ```
 
 ### for문과 배열
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -244,7 +244,7 @@ int main()
 
 ### 배열의 입력과 출력
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -259,7 +259,7 @@ int main()
 
 ### 두 배열이 같은지 체크
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -283,7 +283,7 @@ int main()
 
 ### 배열이 오름차순인지 체크
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -311,7 +311,7 @@ int main()
 ### 문자열의 입력
 
 문자열은 보통 %s 라는 서식문자로 입력받습니다.
-```
+```c
 char s[100];
 scanf("%s",s);
 ```
@@ -319,7 +319,7 @@ scanf("%s",s);
 하지만 입력 중간에 공백이 있으면 한번에 받지 못합니다. 그럴때는 다음과 같이 입력받으면 됩니다.  
 
 한 줄 입력받기 (공백 포함)
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -333,7 +333,7 @@ int main()
 ### 문자열의 출력
 
 출력 역시 %s 서식문자로 출력합니다. 특이한 것은 문자열의 시작 주소부터 \0을 만날 때 까지 출력합니다.  
-```
+```c
 #include <stdio.h>
 
 int main()
