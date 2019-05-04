@@ -90,7 +90,8 @@
 - 콜센터
     ```c
     #include <stdio.h>
-    int main(){
+    int main()
+    {
         printf("     /~\\\n");
         printf("    ( oo|\n");
         printf("    _\\=/_\n");
