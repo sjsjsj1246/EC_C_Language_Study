@@ -196,13 +196,13 @@ int main()
 
 	for (int i = 0; i < 5; i++)
 	{
-		for (int j = 0; j < 5 - i - 1; j++)
+		for (int j = i + 1; j < 5; j++)
 		{
-			if (arr[j] > arr[j + 1])
+			if (arr[i] > arr[j])
 			{
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
+				int temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
 			}
 		}
 	}
@@ -225,7 +225,7 @@ int main()
 }
 ```
 
-변수를 사용할 때와 마찬가지로 배열에는 원하는 값을 저장하면 되고 다른 점은 그 값을 인덱싱할 수 있다는 점이 좋습니다.  
+변수를 사용할 때와 마찬가지로 배열에는 원하는 값을 저장하면 되고 단일 변수와 다른 점은 그 값을 인덱싱할 수 있다는 점이 좋습니다.  
 
 
 
