@@ -385,20 +385,20 @@ int main()
 ```c
 #include <stdio.h>
 
-void f(int n, int cnt)
+void star(int n, int cnt)
 {
 	if (n < cnt) return;
 	for (int i = 0; i < cnt; i++)
 		printf("*");
 	printf("\n");
-	f(n, cnt + 1);
+	star(n, cnt + 1);
 }
 
 int main()
 {
 	int n;
 	scanf("%d", &n);
-	f(n, 1);
+	star(n, 1);
 }
 ```
 - 팩토리얼
