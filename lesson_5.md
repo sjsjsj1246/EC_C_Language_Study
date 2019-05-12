@@ -388,8 +388,10 @@ int main()
 void f(int n, int cnt)
 {
 	if (n < cnt) return;
-	for (int i = 0; i < cnt; i++) 
-        printf("*");
+	for (int i = 0; i < cnt; i++)
+    {
+        printf("*");        
+    }
 	printf("\n");
 	f(n, cnt+1);
 }
