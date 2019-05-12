@@ -383,6 +383,8 @@ int main()
     - cnt는 count로 재귀함수가 몇번 호출되었는지 알려줍니다.
     - cnt만큼 별을 찍고 cnt가 n보다 크면 재귀함수를 종료합니다.
 ```c
+#include <stdio.h>
+
 void f(int n, int cnt)
 {
 	if (n < cnt) return;
@@ -407,17 +409,17 @@ int main()
 ```c
 #include <stdio.h>
 
-int f(int n)
+int fac(int n)
 {
 	if (n == 0) return 1;
-	return n * f(n - 1);
+	return n * fac(n - 1);
 }
 
 int main() 
 {
 	int n;
 	scanf("%d", &n);
-	printf("%d", f(n));
+	printf("%d", fac(n));
 }
 ```
 - 피보나치 수열
@@ -428,17 +430,17 @@ int main()
 ```c
 #include <stdio.h>
 
-int f(int n)
+int fibo(int n)
 {
 	if (n <= 1) return n;
-	return f(n - 1) + f(n - 2);
+	return fibo(n - 1) + fibo(n - 2);
 }
 
 int main() 
 {
 	int n;
 	scanf("%d", &n);
-	printf("%d", f(n));
+	printf("%d", fibo(n));
 }
 ```
 - 이항계수
@@ -446,17 +448,17 @@ int main()
 ```c
 #include <stdio.h>
 
-long long int f(int n, int r)
+long long int C(int n, int r)
 {
 	if (n == r || r == 0) return 1;
-	return f(n - 1, r - 1) + f(n - 1, r);
+	return C(n - 1, r - 1) + C(n - 1, r);
 }
 
 int main() 
 {
 	int n, r;
 	scanf("%d%d", &n, &r);
-	printf("%lld", f(n, r));
+	printf("%lld", C(n, r));
 }
 ```
 - n개 고르기
