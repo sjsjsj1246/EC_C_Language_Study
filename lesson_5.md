@@ -491,6 +491,34 @@ int main()
 }
 ```
 
+```c
+#include <stdio.h>
+
+int size = 8, arr[8] = { 1,2,3,4,5,6,7,8 }, picked[3], toPick = 3;
+
+void pick(int pos, int pickedNum)
+{
+	if (pickedNum == toPick)
+	{
+		for (int i = 0; i < toPick; i++)
+			printf("%d ", picked[i]);
+		printf("\n");
+		return;
+	}
+	for (int i = pos; i < size; i++)
+	{
+		picked[pickedNum] = arr[i];
+		pick(i + 1, pickedNum + 1);
+	}
+}
+
+int main()
+{
+	pick(0, 0);
+}
+```
+이렇게 매개변수 일부를 전역변수로 빼서 사용 할 수도 있습니다.  
+
 ### 재귀함수의 시간복잡도
 
 재귀함수의 시간복잡도는 자기 자신을 몇번 호출하느냐에 따라 달렸습니다. 물론 여러 조건문이 섞이게 되면 약간 달라집니다.  
