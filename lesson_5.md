@@ -256,7 +256,7 @@ int main()
 
 ### 지역 변수
 
-지역 변수는 중괄호{} 내부에서 선언된 변수와 함수의 매개변수로 사용되는 변수를 의미합니다. 중괄호는 하나의 블록을 만듭니다.  
+지역 변수는 중괄호{} 내부에서 선언된 변수와 함수의 매개변수를 의미합니다. 중괄호는 하나의 블록을 만듭니다.  
 ```c
 #include <stdio.h>
 int sum(int a, int b)
@@ -388,7 +388,8 @@ int main()
 void f(int n, int cnt)
 {
 	if (n < cnt) return;
-	for (int i = 0; i < cnt; i++) printf("*");
+	for (int i = 0; i < cnt; i++) 
+        printf("*");
 	printf("\n");
 	f(n, cnt+1);
 }
