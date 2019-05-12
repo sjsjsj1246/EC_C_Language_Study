@@ -383,20 +383,16 @@ int main()
     - cnt는 count로 재귀함수가 몇번 호출되었는지 알려줍니다.
     - cnt만큼 별을 찍고 cnt가 n보다 크면 재귀함수를 종료합니다.
 ```c
-#include <stdio.h>
-
 void f(int n, int cnt)
 {
 	if (n < cnt) return;
 	for (int i = 0; i < cnt; i++)
-    {
-        printf("*");        
-    }
+		printf("*");
 	printf("\n");
-	f(n, cnt+1);
+	f(n, cnt + 1);
 }
 
-int main() 
+int main()
 {
 	int n;
 	scanf("%d", &n);
