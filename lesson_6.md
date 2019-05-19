@@ -335,7 +335,7 @@ Hello, world!
 bonjour le monde!
 가 출력됩니다.  
 
-```
+```c
 #include <stdio.h>
 
 int add(int a, int b)
