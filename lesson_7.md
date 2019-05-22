@@ -31,7 +31,8 @@ int main()
 {
 	int point_x[2] = {1, 4};
 	int point_y[2] = {2, 6};
-	printf("%f", sqrt((point_x[1] - point_x[0]) * (point_x[1] - point_x[0]) + (point_y[1] - point_y[0]) * (point_y[1] - point_y[0])));
+	printf("%f", sqrt((point_x[1] - point_x[0]) * (point_x[1] - point_x[0]) + 
+    (point_y[1] - point_y[0]) * (point_y[1] - point_y[0])));
 }
 ```
 이런 식으로 간단하게 만들 수 있긴 하지만 여전히 복잡해 보입니다.  
