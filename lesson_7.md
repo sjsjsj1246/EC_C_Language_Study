@@ -170,7 +170,7 @@ struct Student
 ```
 
 구조체 배열도 있습니다.  
-```
+```c
 #include <stdio.h>
 #include <math.h>
 
