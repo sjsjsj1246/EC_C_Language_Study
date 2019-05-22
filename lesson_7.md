@@ -15,11 +15,10 @@
 
 int main()
 {
-    int a_x = 1, a_y = 2;
-    int b_x = 4, b_y = 6;
-    
-	printf("%f", sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y)));
-}
+	int a_x = 1, a_y = 2;
+	int b_x = 4, b_y = 6;
+
+	printf("%f", sqrt((b_x - a_x) * (b_x - a_x) + (b_y - a_y) * (b_y - a_y)));
 }
 ```
 서로 다른 좌표가 여러개 생긴다면 관리하기가 어렵습니다.  
