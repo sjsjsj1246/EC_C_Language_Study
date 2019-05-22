@@ -234,6 +234,13 @@ int main()
 ### 구조체 복사하기 memcpy()
 
 구조체는 int a, b일때 a=b 하는 것처럼 a에다 b를 넣지 못합니다.  
+```c
+int main()
+{
+    int a=1, b=2;
+    b = a;
+}
+```
 memcpy (member copy의 약자) 함수를 이용해야 합니다.  
 다음과 같이 사용합니다.  
 ```c
