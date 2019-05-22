@@ -317,13 +317,13 @@ int main()
 	Student* p = (Student*)malloc(sizeof(Student));
 
 	printf("학생의 학번을 입력하세요");
-	scanf("%d", &student->id);
+	scanf("%d", &p->id);
 	printf("학생의 나이를 입력하세요");
-	scanf("%d", &student->age);
+	scanf("%d", &p->age);
 	printf("학생의 전공을 입력하세요");
-	scanf("%s", student->major);
+	scanf("%s", p->major);
 	printf("학생의 이름을 입력하세요");
-	scanf("%s", student->name);
+	scanf("%s", p->name);
 
 	printf("학생의 학번 : %d\n", p->id);
 	printf("학생의 나이 : %d\n", p->age);
